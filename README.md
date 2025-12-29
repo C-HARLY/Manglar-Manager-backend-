@@ -1,6 +1,3 @@
-# ⚙️ Manglar Manager - Backend API
-
-
 
 ![NodeJS](https://img.shields.io/badge/Node.js-v18-green)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
@@ -31,7 +28,7 @@ El backend fue construido siguiendo el patrón MVC  adaptado a API REST:
 
 La API expone los siguientes recursos principales:
 
-### 👤 Autenticación (Auth)
+###  Autenticación (Auth)
 | Método | Endpoint | Descripción |
 | :--- | :--- | :--- |
 | `POST` | `/api/auth/login` | Inicia sesión y devuelve Token JWT |
@@ -68,7 +65,7 @@ Sigue estos pasos para levantar el servidor en local:
 
 1.  **Clonar repositorio e instalar dependencias:**
     ```bash
-    git clone [https://github.com/TuUsuario/ManglarManager-Backend.git](https://github.com/TuUsuario/ManglarManager-Backend.git)
+    git clone https://github.com/C-HARLY/Manglar-Manager-backend-.git
     cd ManglarManager-Backend
     npm install
     ```
@@ -99,3 +96,4 @@ El proyecto sigue una organización por **features**, facilitando el mantenimien
   │   └── /utils        # Helpers y utilidades
   ├── index.js          # Punto de entrada (Entry Point)
   └── .env              # Variables de entorno 
+
